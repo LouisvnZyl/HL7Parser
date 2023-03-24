@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test Projects\\HL7MLLP\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj": {}
+    "F:\\Fork\\HL7Parser\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj": {}
   },
   "projects": {
-    "D:\\Test Projects\\HL7MLLP\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj": {
+    "F:\\Fork\\HL7Parser\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test Projects\\HL7MLLP\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj",
+        "projectUniqueName": "F:\\Fork\\HL7Parser\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj",
         "projectName": "HL7MLLP Test",
-        "projectPath": "D:\\Test Projects\\HL7MLLP\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj",
+        "projectPath": "F:\\Fork\\HL7Parser\\HL7MLLP Test\\HL7MLLP Test\\HL7MLLP Test.csproj",
         "packagesPath": "C:\\Users\\Louis van Zyl\\.nuget\\packages\\",
-        "outputPath": "D:\\Test Projects\\HL7MLLP\\HL7MLLP Test\\HL7MLLP Test\\obj\\",
+        "outputPath": "F:\\Fork\\HL7Parser\\HL7MLLP Test\\HL7MLLP Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

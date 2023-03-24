@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HL7MLLP_Test
-build_property.ProjectDir = D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\
+build_property.ProjectDir = F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\
