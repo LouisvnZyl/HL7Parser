@@ -2,8 +2,6 @@
 {
     public class BaseHl7DataStructure : IBaseHL7DataStructure
     {
-        public string SegmentName { get; set; } = string.Empty;
-
-        public Dictionary<int, BaseHL7Field> Fields { get; set; } = new Dictionary<int, BaseHL7Field>();
+        public List<Hl7Segment> Segments { get; set; } = new List<Hl7Segment>();
     }
 }
