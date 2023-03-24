@@ -15,3 +15,20 @@ D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test
 D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\ref\HL7MLLP Test.dll
 D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.CopyComplete
 D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7-dotnetcore.dll
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.exe
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.deps.json
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.runtimeconfig.json
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.dll
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.pdb
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7-dotnetcore.dll
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.AssemblyReference.cache
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.GeneratedMSBuildEditorConfig.editorconfig
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.AssemblyInfoInputs.cache
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.AssemblyInfo.cs
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.CoreCompileInputs.cache
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.CopyComplete
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.dll
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\refint\HL7MLLP Test.dll
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.pdb
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.genruntimeconfig.cache
+F:\Fork\HL7Parser\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\ref\HL7MLLP Test.dll
