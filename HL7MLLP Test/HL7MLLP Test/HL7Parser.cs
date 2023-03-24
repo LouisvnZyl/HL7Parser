@@ -37,43 +37,49 @@ OBX | @@SetId | ED | 02585 ^ SummaryOfCare || ^Application ^ PDF ^ Base64 ^ @@Ba
 
             BaseHl7DataStructure testingStructure = new BaseHl7DataStructure();
 
-            testingStructure.WithSegmentName("MSH")
-                            .WithFields(fields => fields.WithField(2, component => component.WithComponent(1, "Field 1 test 1")
-                                                                                            .WithComponent(3, "Field 1 test 3"))
-                                                        .WithField(4,component => component.WithComponent(2, "Field 4 test 2")
-                                                                                           .WithComponent(6,"Field 4 test 6" )));
+            testingStructure.WithSegment("MHS", segment => segment.WithFields(fields => fields.WithField(2, component => component.WithComponent(1, "Seg 1 Field 1 Comp 1")
+                                                                                                                                  .WithComponent(3, "Seg 1 Field 1 Comp 3"))
+                                                                                              .WithField(4, component => component.WithComponent(2, "Seg 1 Field 4 Comp 2")
+                                                                                                                                  .WithComponent(6, "Seg 1 Field 4 Comp 6"))))
+                            .WithSegment("OBX", segment => segment.WithFields(fields => fields.WithField(1, component => component.WithComponent(1, "Seg 2 Field 1 Comp 1"))
+                                                                                              .WithField(3, component => component.WithComponent(1, "Seg 2 Field 3 Comp 1"))
+                                                                                              .WithField(5, component => component.WithComponent(1, "Seg 2 Field 5 Comp 1"))
+                                                                                              .WithField(7, component => component.WithComponent(1, "Seg 2 Field 7 Comp 1"))
+                                                                                              .WithField(11, component => component.WithComponent(1, "Seg 2 Field 11 Comp 1"))));
 
             CreateHl7Document(testingStructure, testingMessage);
 
             var newTestMessage = testingMessage.SerializeMessage(false);
         }
 
-
         public void CreateHl7Document(IBaseHL7DataStructure hl7DataStructure, Message message)
         {
             HL7Encoding hL7Encoding = new HL7Encoding();
 
-            Segment newSegment = new Segment(hl7DataStructure.SegmentName, hL7Encoding);
-
-            foreach (var item in hl7DataStructure.Fields)
+            foreach (var segment in hl7DataStructure.Segments)
             {
-                Field segmentField = new Field(string.Empty, hL7Encoding);
+                Segment newSegment = new Segment(segment.SegmentName, hL7Encoding);
 
-                foreach (var component in item.Value.Components)
+                foreach (var item in segment.Fields)
                 {
-                    Component fieldComponent = new Component(component.Value, hL7Encoding);
+                    Field segmentField = new Field(string.Empty, hL7Encoding);
 
-                    segmentField.AddNewComponent(fieldComponent, component.Key);
+                    foreach (var component in item.Value.Components)
+                    {
+                        Component fieldComponent = new Component(component.Value, hL7Encoding);
+
+                        segmentField.AddNewComponent(fieldComponent, component.Key);
+                    }
+
+                    newSegment.AddNewField(segmentField, item.Key);
                 }
 
-                newSegment.AddNewField(segmentField, item.Key);
-            }
+                bool success = message.AddNewSegment(newSegment);
 
-            bool success = message.AddNewSegment(newSegment);
-
-            if (!success)
-            {
-                throw new Exception();
+                if (!success)
+                {
+                    throw new Exception();
+                }
             }
         }
     }

@@ -2,8 +2,6 @@
 {
     public interface IBaseHL7DataStructure
     {
-        public string SegmentName { get; set; }
-
-        public Dictionary<int,BaseHL7Field> Fields { get; set; }
+        public List<Hl7Segment> Segments { get; set; }
     }
 }

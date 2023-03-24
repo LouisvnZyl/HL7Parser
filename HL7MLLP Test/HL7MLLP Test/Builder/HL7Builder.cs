@@ -2,15 +2,18 @@
 {
     public static class HL7Builder
     {
-        public static BaseHl7DataStructure WithSegmentName(this BaseHl7DataStructure hl7Data, string segmentName)
+        public static BaseHl7DataStructure WithSegment(this BaseHl7DataStructure hl7Data, string segmentName, Func<Hl7Segment, Hl7Segment> segmentConfiguration)
         {
-            hl7Data.SegmentName = segmentName;
+            Hl7Segment segment = new Hl7Segment();
+            segment.SegmentName = segmentName;
+            segmentConfiguration(segment);
+            hl7Data.Segments.Add(segment);
             return hl7Data;
         }
 
-        public static BaseHl7DataStructure WithFields(this BaseHl7DataStructure hl7Data, Func<Dictionary<int, BaseHL7Field>, Dictionary<int, BaseHL7Field>> segmentConfiguration)
+        public static Hl7Segment WithFields(this Hl7Segment hl7Data, Func<Dictionary<int, BaseHL7Field>, Dictionary<int, BaseHL7Field>> fieldConfiguration)
         {
-            segmentConfiguration(hl7Data.Fields);
+            fieldConfiguration(hl7Data.Fields);
             return hl7Data;
         }
 
