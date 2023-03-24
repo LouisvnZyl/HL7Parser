@@ -1,0 +1,17 @@
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.exe
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.deps.json
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.runtimeconfig.json
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.dll
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7MLLP Test.pdb
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.AssemblyReference.cache
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.AssemblyInfoInputs.cache
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.AssemblyInfo.cs
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.CoreCompileInputs.cache
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.dll
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\refint\HL7MLLP Test.dll
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.pdb
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.genruntimeconfig.cache
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\ref\HL7MLLP Test.dll
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\obj\Debug\net6.0\HL7MLLP Test.csproj.CopyComplete
+D:\Test Projects\HL7MLLP\HL7MLLP Test\HL7MLLP Test\bin\Debug\net6.0\HL7-dotnetcore.dll

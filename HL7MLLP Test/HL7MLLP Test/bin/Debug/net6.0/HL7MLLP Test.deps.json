@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HL7MLLP Test/1.0.0": {
+        "dependencies": {
+          "HL7-dotnetcore": "2.35.0"
+        },
+        "runtime": {
+          "HL7MLLP Test.dll": {}
+        }
+      },
+      "HL7-dotnetcore/2.35.0": {
+        "runtime": {
+          "lib/netstandard2.0/HL7-dotnetcore.dll": {
+            "assemblyVersion": "2.35.0.0",
+            "fileVersion": "2.35.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HL7MLLP Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HL7-dotnetcore/2.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1yScq0Ju2O/GPBasnr9/uHziKu3CBgh4nOkgJPWatPLTcP4EzUjjaM2hkgjOBMj8pKO0g687UDnj989MvYRLfA==",
+      "path": "hl7-dotnetcore/2.35.0",
+      "hashPath": "hl7-dotnetcore.2.35.0.nupkg.sha512"
+    }
+  }
+}
